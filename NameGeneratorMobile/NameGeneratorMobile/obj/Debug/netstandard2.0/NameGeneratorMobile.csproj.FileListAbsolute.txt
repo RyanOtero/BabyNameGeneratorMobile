@@ -1,0 +1,16 @@
+C:\Users\ROtero\source\repos\NameGeneratorMobile\NameGeneratorMobile\NameGeneratorMobile\bin\Debug\netstandard2.0\NameGeneratorMobile.deps.json
+C:\Users\ROtero\source\repos\NameGeneratorMobile\NameGeneratorMobile\NameGeneratorMobile\bin\Debug\netstandard2.0\NameGeneratorMobile.dll
+C:\Users\ROtero\source\repos\NameGeneratorMobile\NameGeneratorMobile\NameGeneratorMobile\bin\Debug\netstandard2.0\ref\NameGeneratorMobile.dll
+C:\Users\ROtero\source\repos\NameGeneratorMobile\NameGeneratorMobile\NameGeneratorMobile\bin\Debug\netstandard2.0\NameGeneratorMobile.pdb
+C:\Users\ROtero\source\repos\NameGeneratorMobile\NameGeneratorMobile\NameGeneratorMobile\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\Users\ROtero\source\repos\NameGeneratorMobile\NameGeneratorMobile\NameGeneratorMobile\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\Users\ROtero\source\repos\NameGeneratorMobile\NameGeneratorMobile\NameGeneratorMobile\bin\Debug\netstandard2.0\Mono.Android.xml
+C:\Users\ROtero\source\repos\NameGeneratorMobile\NameGeneratorMobile\NameGeneratorMobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ROtero\source\repos\NameGeneratorMobile\NameGeneratorMobile\NameGeneratorMobile\obj\Debug\netstandard2.0\View\MainPage.xaml.g.cs
+C:\Users\ROtero\source\repos\NameGeneratorMobile\NameGeneratorMobile\NameGeneratorMobile\obj\Debug\netstandard2.0\NameGeneratorMobile.AssemblyInfoInputs.cache
+C:\Users\ROtero\source\repos\NameGeneratorMobile\NameGeneratorMobile\NameGeneratorMobile\obj\Debug\netstandard2.0\NameGeneratorMobile.AssemblyInfo.cs
+C:\Users\ROtero\source\repos\NameGeneratorMobile\NameGeneratorMobile\NameGeneratorMobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\ROtero\source\repos\NameGeneratorMobile\NameGeneratorMobile\NameGeneratorMobile\obj\Debug\netstandard2.0\NameGeneratorMobile.csproj.CopyComplete
+C:\Users\ROtero\source\repos\NameGeneratorMobile\NameGeneratorMobile\NameGeneratorMobile\obj\Debug\netstandard2.0\NameGeneratorMobile.dll
+C:\Users\ROtero\source\repos\NameGeneratorMobile\NameGeneratorMobile\NameGeneratorMobile\obj\Debug\netstandard2.0\ref\NameGeneratorMobile.dll
+C:\Users\ROtero\source\repos\NameGeneratorMobile\NameGeneratorMobile\NameGeneratorMobile\obj\Debug\netstandard2.0\NameGeneratorMobile.pdb

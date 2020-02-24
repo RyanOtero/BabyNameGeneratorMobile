@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="NameGeneratorMobile.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <OnPlatform x:TypeArguments="x:String" 
+                x:Key="FontAwesomeBrands">
+                <On Platform="Android" 
+          Value="Font Awesome 5 Brands-Regular-400.otf#Regular" />
+                <On Platform="iOS" 
+          Value="FontAwesome5Brands-Regular" />
+                <On Platform="UWP" 
+          Value="/Assets/FontAwesome5Brands.otf#Font Awesome 5 Brands" />
+            </OnPlatform>
+
+            <OnPlatform x:TypeArguments="x:String" 
+                x:Key="FontAwesomeSolid">
+                <On Platform="Android" 
+          Value="Font Awesome 5 Free-Solid-900.otf#Regular" />
+                <On Platform="iOS" 
+          Value="FontAwesome5Free-Solid" />
+                <On Platform="UWP" 
+          Value="/Assets/FontAwesome5Solid.otf#Font Awesome 5 Free" />
+            </OnPlatform>
+
+            <OnPlatform x:TypeArguments="x:String" 
+                x:Key="FontAwesomeRegular">
+                <On Platform="Android" 
+          Value="Font Awesome 5 Free-Regular-400.otf#Regular" />
+                <On Platform="iOS" 
+          Value="FontAwesome5Free-Regular" />
+                <On Platform="UWP" 
+          Value="/Assets/FontAwesome5Regular.otf#Font Awesome 5 Free" />
+            </OnPlatform>
+            <Style x:Key="BaseButton" TargetType="Button">
+                <Setter Property="BorderWidth" Value="5"/>
+                <Setter Property="WidthRequest" Value="65"/>
+                <Setter Property="HeightRequest" Value="65"/>
+                <Setter Property="CornerRadius" Value="23"/>
+            </Style>
+            <Style x:Key="BaseListButton" TargetType="Button">
+                <Setter Property="CornerRadius" Value="30"/>
+                <Setter Property="BorderWidth" Value="3"/>
+                <Setter Property="Padding" Value="10"/>
+            </Style>
+            <Style x:Key="Girl" TargetType="Button" BasedOn="{StaticResource BaseButton}">
+                <Setter Property="TextColor" Value="#ff69b4"/>
+                <Setter Property="BackgroundColor" Value="#ffd5e5"/>
+                <Setter Property="BorderColor" Value="#ff69b4"/>
+            </Style>
+            <Style  x:Key="Boy" TargetType="Button" BasedOn="{StaticResource BaseButton}">
+                <Setter Property="TextColor" Value="#5386d3"/>
+                <Setter Property="BackgroundColor" Value="#dbe8ff"/>
+                <Setter Property="BorderColor" Value="#5386d3"/>
+            </Style>
+            <Style x:Key="GirlList" TargetType="Button" BasedOn="{StaticResource BaseListButton}">
+                <Setter Property="TextColor" Value="#ff69b4"/>
+                <Setter Property="BackgroundColor" Value="#ffd5e5"/>
+                <Setter Property="BorderColor" Value="#ff69b4"/>
+            </Style>
+            <Style x:Key="BoyList" TargetType="Button" BasedOn="{StaticResource BaseListButton}">
+                <Setter Property="TextColor" Value="#5386d3"/>
+                <Setter Property="BackgroundColor" Value="#dbe8ff"/>
+                <Setter Property="BorderColor" Value="#5386d3"/>
+            </Style>
+            <Color x:Key="GirlHighColor">#ff69b4</Color>
+            <Color x:Key="GirlLowColor">#ffd5e5</Color>
+            <Color x:Key="BoyHighColor">#5386d3</Color>
+            <Color x:Key="BoyLowColor">#dbe8ff</Color>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

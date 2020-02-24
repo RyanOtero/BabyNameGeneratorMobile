@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:NameGeneratorMobile.View"
+             xmlns:local1="clr-namespace:AdMob.CustomRenders"
+             xmlns:viewModel="clr-namespace:NameGeneratorMobile.ViewModel"
+             mc:Ignorable="d"
+             x:Class="NameGeneratorMobile.MainPage">
+    <ContentPage.BindingContext>
+        <viewModel:MainViewModel/>
+    </ContentPage.BindingContext>
+    <Grid RowSpacing="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Image Source="{Binding Background}"
+               Aspect="AspectFill"
+               Grid.Row="0">
+        </Image>
+        <Grid ColumnSpacing="15"
+          RowSpacing="20"
+          Margin="20"
+          Grid.Row="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="6*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <local:ScalableLabel Text="{Binding NameLabel}"
+               FontSizeFactor=".6"
+               HorizontalTextAlignment="Center"
+               HorizontalOptions="Center"
+               VerticalTextAlignment="Center"
+               TextColor="{DynamicResource HighColor}"
+               NamedFontSize="Header"
+               Grid.Column="0"
+               Grid.Row="0"
+               Grid.ColumnSpan="2"/>
+            <Frame Padding="0"
+               BackgroundColor="{DynamicResource HighColor}"
+               CornerRadius="30" Margin="0, 10, 0, 10"
+               Grid.Column="0"
+               Grid.Row="1">
+                <Frame Margin="3"
+                           BackgroundColor="{DynamicResource LowColor}"
+                           CornerRadius="27">
+                    <StackLayout Orientation="Vertical">
+                        <ListView Margin="2, 0"
+                                  ItemsSource="{Binding NameList}"
+                                  SeparatorVisibility="None"
+                                  SelectedItem="{Binding SelectedItem }">
+                            <ListView.Header>
+                                <Label Text="{Binding ListLabel}"
+                                       TextDecorations="Underline"
+                                       TextColor="{DynamicResource HighColor}"
+                                       FontSize="26" 
+                                       HorizontalTextAlignment="Center"/>
+                            </ListView.Header>
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <Label Text="{Binding}"
+                                               TextColor="{DynamicResource HighColor}"
+                                               FontSize="Title"
+                                               VerticalTextAlignment="Center"/>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                        <StackLayout Orientation="Horizontal"
+                                     HorizontalOptions="Center">
+                            <Button Text="Remove Name"
+                                    FontSize="Default"
+                                    Command="{Binding RemoveNameButton}"
+                                    Style="{DynamicResource ListButtonStyle}"/>
+                            <Button Text="Clear List" 
+                                    FontSize="Default"
+                                    Command="{Binding ClearButton}"
+                                    Style="{DynamicResource ListButtonStyle}"/>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+            </Frame>
+            <StackLayout Orientation="Vertical"
+                     VerticalOptions="Center"
+                     Grid.Column="1"
+                     Grid.Row="1">
+                <Button Text="&#xf04b;"
+                        FontFamily="{StaticResource FontAwesomeSolid}"
+                        Command="{Binding GenerateButton}"
+                        Style="{DynamicResource ButtonStyle}"/>
+                <Button Text="&#xf04a;"
+                        FontFamily="{StaticResource FontAwesomeSolid}"
+                        Command="{Binding PreviousButton}"
+                        Style="{DynamicResource ButtonStyle}"/>
+                <Button Text="&#xf067;"
+                        FontFamily="{StaticResource FontAwesomeSolid}"
+                        Command="{Binding AddButton}"
+                        FontSize="Large"
+                        Style="{DynamicResource ButtonStyle}"/>
+                <Button Text="&#xf1e0;"
+                        FontFamily="{StaticResource FontAwesomeSolid}"
+                        Command="{Binding ShareButton}"
+                        FontSize="Large"
+                        Style="{DynamicResource ButtonStyle}"/>
+                <Button Text="{Binding SoundButtonText}"
+                        FontFamily="{StaticResource FontAwesomeSolid}"
+                        FontSize="Large"
+                        Command="{Binding SoundButton}"
+                        Style="{DynamicResource ButtonStyle}"/>
+                <Button Text="{Binding GenderButtonText}"
+                        FontFamily="{StaticResource FontAwesomeSolid}"
+                        FontSize="Large"
+                        Command="{Binding GenderButton}"
+                        Style="{DynamicResource AltButtonStyle}"/>
+            </StackLayout>
+            
+        </Grid>
+        <local1:AdBanner Size="Standardbanner"
+                         Grid.Row="1"/>
+    </Grid>
+    
+</ContentPage>
