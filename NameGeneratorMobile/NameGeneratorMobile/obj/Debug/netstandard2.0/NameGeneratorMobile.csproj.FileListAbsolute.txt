@@ -14,3 +14,4 @@ C:\Users\ROtero\source\repos\NameGeneratorMobile\NameGeneratorMobile\NameGenerat
 C:\Users\ROtero\source\repos\NameGeneratorMobile\NameGeneratorMobile\NameGeneratorMobile\obj\Debug\netstandard2.0\NameGeneratorMobile.dll
 C:\Users\ROtero\source\repos\NameGeneratorMobile\NameGeneratorMobile\NameGeneratorMobile\obj\Debug\netstandard2.0\ref\NameGeneratorMobile.dll
 C:\Users\ROtero\source\repos\NameGeneratorMobile\NameGeneratorMobile\NameGeneratorMobile\obj\Debug\netstandard2.0\NameGeneratorMobile.pdb
+C:\Users\ROtero\source\repos\NameGeneratorMobile\NameGeneratorMobile\NameGeneratorMobile\obj\Debug\netstandard2.0\NameGeneratorMobile.csprojAssemblyReference.cache

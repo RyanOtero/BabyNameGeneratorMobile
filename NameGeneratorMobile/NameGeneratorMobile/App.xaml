@@ -38,8 +38,8 @@
             </OnPlatform>
             <Style x:Key="BaseButton" TargetType="Button">
                 <Setter Property="BorderWidth" Value="5"/>
-                <Setter Property="WidthRequest" Value="65"/>
-                <Setter Property="HeightRequest" Value="65"/>
+                <!--<Setter Property="WidthRequest" Value="65"/>
+                <Setter Property="HeightRequest" Value="65"/>-->
                 <Setter Property="CornerRadius" Value="23"/>
             </Style>
             <Style x:Key="BaseListButton" TargetType="Button">

@@ -553,3 +553,4 @@ C:\Users\ROtero\source\repos\NameGeneratorMobile\NameGeneratorMobile\NameGenerat
 C:\Users\ROtero\source\repos\NameGeneratorMobile\NameGeneratorMobile\NameGeneratorMobile.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\ROtero\source\repos\NameGeneratorMobile\NameGeneratorMobile\NameGeneratorMobile.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\ROtero\source\repos\NameGeneratorMobile\NameGeneratorMobile\NameGeneratorMobile.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\ROtero\source\repos\NameGeneratorMobile\NameGeneratorMobile\NameGeneratorMobile.Android\obj\Debug\90\stamp\SetupDependenciesForDesigner.stamp
